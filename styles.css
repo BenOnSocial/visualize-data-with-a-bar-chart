@@ -1,0 +1,29 @@
+body {
+  align-content: center;
+  text-align: center;
+}
+
+svg {
+  box-shadow: 10px 10px 30px 1px darkgray;
+}
+
+.bar {
+  fill: steelblue;
+  display: inline-block;
+}
+
+.bar:hover {
+  fill: lightskyblue;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 5px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 1px solid #999;
+  border-radius: 5px;
+  pointer-events: none; /* Prevents tooltip from blocking mouse events */
+  opacity: 0; /* Initially hidden */
+}
