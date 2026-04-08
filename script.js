@@ -3,7 +3,7 @@ const height = 768;
 const margin = 50;
 
 const dataset = await d3.json(
-  'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json'
+  'data/GDP-data.json'
 );
 
 const barGap = 1;
